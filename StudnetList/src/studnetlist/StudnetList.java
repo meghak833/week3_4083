@@ -9,21 +9,21 @@ import java.util.Scanner;
 public class StudnetList {
 
     public static void main(String[] args) {
-        Student [] student=new Student[4];
+        Student [] stu=new Student[4];
         
         Scanner k = new Scanner(System.in);
         
         
-        for(int i=0;i<student.length;i++){
+        for(int i=0;i<stu.length;i++){
             System.out.println("Enter your student ID");
-            student[i].setId(k.nextInt());
+            stu[i].setId(k.nextInt());
             System.out.println("Enter your Name");
-            student[i].setName(k.next());
-            System.out.println("Enter your age.");
-            student[i].setAge(k.nextInt());
+            stu[i].setName(k.next());
         }
        
-        
+        for(Student item: stu){
+            System.out.println("id: "+ item.getId()+"\nName: " + item.getName());
+        }
 
              
         
