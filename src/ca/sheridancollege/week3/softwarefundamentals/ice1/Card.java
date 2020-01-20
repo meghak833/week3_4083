@@ -14,7 +14,6 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * add your name as a modifier.
  *
  * @author Megha Patel
- * @modifier Emily Diano 991546058
  */
 public class Card {
 
@@ -49,8 +48,5 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
-   
-    public String toString() {
-         System.out.format("Card: %s, %d", suit, value);
-    }
+
 }
