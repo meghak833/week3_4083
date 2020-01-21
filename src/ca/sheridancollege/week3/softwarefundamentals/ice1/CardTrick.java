@@ -26,7 +26,7 @@ public class CardTrick {
             c.setValue((int) value1);
             
             double suit1 = (Math.random()* 4);
-            c.setSuit()
+            c.setSuit(Card.SUITS[suit1]);
             
                 //I'm lost...
         }
