@@ -15,7 +15,7 @@ public class BeadTest {
     public static void main(String[] args)
     {// Using setters and getters
         Beads b1=new Beads();
-        RoundBead rb1=new RoundBead();
+       // RoundBead rb1=new RoundBead();
         b1.setColor("blue");
         b1.setLetter('A');
         System.out.print("color: "+b1.getColor()+"\n"+"letter: "+b1.getLetter()+"\n");
