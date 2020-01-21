@@ -17,8 +17,9 @@ public class Beads {
 
     Beads()
     {
-            color="red";
-            letter='R';
+            color="red";//kfkdackvsakcvkshvcksvkhds
+            letter='R';//kacajsfckjvsakjcvjsvrcjvshsaf/
+            //I DID CHANGES
             side=6;
     }
     
