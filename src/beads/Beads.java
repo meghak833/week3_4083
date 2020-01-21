@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package beads;
 
 /**
@@ -11,27 +10,29 @@ package beads;
  * @author Megha
  */
 public class Beads {
+
     public String color;
     public char letter;
     public int side;
 
-    Beads()
-    {
-            color="red";
-            letter='R';
-            side=6;
+    Beads() {
+        color = "red";
+        letter = 'R';
+        side = 6;
     }
-    
-    public Beads(String clr,char ltr, int s)
-    {
-        color=clr;
-        letter=ltr;    
-        side=s;
+
+    public Beads(String clr, char ltr, int s) {
+        color = clr;
+        letter = ltr;
+        side = s;
     }
-    /** getter for color
+
+    /**
+     * getter for color
+     *
      * @return the color
      */
-        public String getColor() {
+    public String getColor() {
         return color;
     }
 
@@ -58,6 +59,5 @@ public class Beads {
     /**
      * @param args the command line arguments
      */
-    
-    
+
 }
